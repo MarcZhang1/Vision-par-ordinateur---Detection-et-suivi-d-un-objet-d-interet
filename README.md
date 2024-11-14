@@ -11,7 +11,7 @@ Nous utilisons le **dataset MOT20**, un benchmark pour le suivi d'objets multipl
 La méthode utilisée combine :
 
 1. **Détection** : Utilisation du modèle YOLO v8 light pour détecter les objets dans chaque frame.
-2. **Suivi** : Application de l'algorithme SORT basé sur un filtre de Kalman pour le suivi des objets détectés&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}.
+2. **Suivi** : Application de l'algorithme SORT basé sur un filtre de Kalman pour le suivi des objets détectés.
 
 
 ## Structure du Projet
