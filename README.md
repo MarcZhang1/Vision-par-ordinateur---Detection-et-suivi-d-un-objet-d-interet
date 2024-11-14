@@ -1,6 +1,18 @@
-# Détection et suivi d’un objet d’intérêt
+# Détection et Suivi d'Objet d'Intérêt
 
-Ce projet implémente un pipeline de détection et suivi d’objets dans des séquences vidéo, utilisant **YOLOv8** pour la détection et **SORT** pour le suivi. Ce système assure l'identification et la traçabilité d'objets d'intérêt à travers chaque frame de la séquence vidéo.
+Ce projet implémente une méthode de détection et de suivi d'objets dans des séquences vidéo, en utilisant des techniques de vision par ordinateur et d'apprentissage profond. L'objectif est de détecter les objets d'intérêt et de les suivre en leur attribuant des identifiants uniques.
+
+## Dataset
+
+Nous utilisons le **dataset MOT20**, un benchmark reconnu pour le suivi d'objets multiples. Ce jeu de données comporte des vidéos de piétons en mouvement avec des annotations de vérité terrain&#8203;:contentReference[oaicite:0]{index=0}.
+
+## Méthodologie
+
+La méthode utilisée combine :
+
+1. **Détection** : Utilisation du modèle YOLO v8 light pour détecter les objets dans chaque frame.
+2. **Suivi** : Application de l'algorithme SORT basé sur un filtre de Kalman pour le suivi des objets détectés&#8203;:contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}.
+
 
 ## Structure du Projet
 
