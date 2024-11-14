@@ -4,7 +4,7 @@ Ce projet implémente une méthode de détection et de suivi d'objets dans des s
 
 ## Dataset
 
-Nous utilisons le **dataset MOT20**, un benchmark reconnu pour le suivi d'objets multiples. Ce jeu de données comporte des vidéos de piétons en mouvement avec des annotations de vérité terrain.
+Nous utilisons le **dataset MOT20**, un benchmark pour le suivi d'objets multiples. Ce jeu de données comporte des vidéos de piétons en mouvement avec des annotations de vérité terrain.
 
 ## Méthodologie
 
